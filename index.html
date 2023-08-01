@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="input" class="containers">
+            <select id="select-language-input" class="select-language">
+            </select>
+            <i class="fa-solid fa-caret-down"></i>
+            <textarea id="text-input" class="text" maxlength="270"></textarea>
+        </div>
+        <div id="output" class="containers">
+            <select id="select-language-output" class="select-language">
+            </select>
+            <textarea id="text-output" class="text" maxlength="270" readonly></textarea>
+        </div>
+    </div>
+    <div id="controller">
+        <a id="translate">Translate</a>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
